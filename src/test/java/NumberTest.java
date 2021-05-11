@@ -20,4 +20,9 @@ public class NumberTest {
     public void less() {
         assertEquals(-1,this.number1.Less());
     }
+
+    @Test
+    public void multiplication() {
+        assertEquals(6,this.number1.Multiplication());
+    }
 }

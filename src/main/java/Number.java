@@ -29,5 +29,9 @@ public class Number {
     public int Less(){
         return this.number1-this.number2;
     }
+
+    public int Multiplication(){
+        return this.number1*this.number2;
+    }
 }
 
