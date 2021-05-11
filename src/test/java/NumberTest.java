@@ -15,4 +15,9 @@ public class NumberTest {
     public void add() {
         assertEquals(5,this.number1.Add());
     }
+
+    @Test
+    public void less() {
+        assertEquals(-1,this.number1.Less());
+    }
 }
