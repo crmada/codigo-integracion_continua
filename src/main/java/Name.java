@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Name {
     private String b1;
 
@@ -25,6 +27,10 @@ public class Name {
         }
 
         return d1;
+    }
+
+    public String writeMayus(){
+        return this.b1.toUpperCase();
     }
 
 }
