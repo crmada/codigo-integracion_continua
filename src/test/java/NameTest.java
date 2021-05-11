@@ -21,4 +21,9 @@ public class NameTest {
     public void returnName() {
         assertEquals("ocram", this.b1.returnName());
     }
+
+    @Test
+    public void writeMayus() {
+        assertEquals("MARCO", this.b1.writeMayus());
+    }
 }
